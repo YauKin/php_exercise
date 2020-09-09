@@ -1,14 +1,12 @@
-body {
-    background-color: white;
-}
-
 /* Hearder */
 .indexHeader {
     padding: 30px 0px;
     background-color: transparent;
 }
 
-.indexHeader div {}
+.indexHeader div {
+
+}
 
 .indexHeader div nav {
     justify-content: space-between;
