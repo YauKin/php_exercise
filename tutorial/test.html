@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<Script>
+    function checkData() {
+        var uname = document.getElementById("uname").value;
+        var email = document.getElementById("email").value;
+        if (uname.length <= 0) {
+            return false;
+        }
+        if (email.indexOf("@") < 0) {
+            return false;
+        }
+        return true;
+    }
+</Script>
+
+<body>
+    <form action="test.php" name="regForm" method="GET" onsubmit="checkData()">
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="uname" id="uname"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="text" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <input type="submit">
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

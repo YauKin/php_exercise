@@ -1,0 +1,16 @@
+{
+    "name": "system/firebase",
+    "description": "PHP Tutorial",
+    "type": "project",
+    "license": "GPL3",
+    "authors": [
+        {
+            "name": "Arthur Systems",
+            "email": "admin@arthur.system"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "kreait/firebase-php": "^4.17"
+    }
+}
