@@ -30,7 +30,7 @@
                 <div class="cardBox col-sm-4">
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="card-title">HsekkiGek</h4>
+                            <h4 class="card-title">HseasdaskkiGek</h4>
                             <p class="card-text">Some example text some example text. Jane Doe is an architect and engineer</p>
                             <a href="#" class="btn btn-primary">See Profile</a>
                         </div>
